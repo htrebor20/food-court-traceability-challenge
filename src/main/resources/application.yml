@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: msvc-food-court-traceability
+  data:
+    mongodb:
+      database: foot_court_traceability
+      host: localhost
+      port: 27017
+
+server:
+  port: 9000
+
+spring.autoconfigure.exclude: org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration
